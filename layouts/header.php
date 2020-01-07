@@ -13,7 +13,7 @@
         <!--slide-->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>public/frontend/css/style.css">
     </head>
-    <body>
+    <body style = "width: 100%;">
         <div id="wrapper">
             <!---->
             <!--HEADER-->
