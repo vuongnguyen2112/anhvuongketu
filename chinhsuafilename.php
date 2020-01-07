@@ -19,16 +19,16 @@
             
             <form action="" method="POST" class="form-horizontal formcustome" role="form" style="margin-top: 15px">
 				<div class="form-group">
-					<label class="col-md-2 col-md-offset-1">Nhập file</label>
+					<label class="col-md-2 col-md-offset-1">Nhập chuỗi</label>
 					<div class="col-md-8">
-						<input type="text" autofocus name="name" placeholder="Tên và họ" class="form-control" value="<?php isset($_POST['name']) ? print_r($_POST['name']) : '' ;?>">	
+						<input type="text" autofocus name="name" placeholder="Nhập chuỗi ở đây" class="form-control" value="<?php isset($_POST['name']) ? print_r($_POST['name']) : '' ;?>">	
 					</div>										
 				</div>
 				
 				<div class="form-group">
 					<label class="col-md-2 col-md-offset-1">Email</label>
 					<div class="col-md-8">
-						<input type="text" name="email" placeholder="" class="form-control" value="<?php isset($_POST['name']) ? validateFileName($_POST['name']) : ''?>"> 
+						<input type="text" name="email" placeholder="Chuỗi ra ở đây..." class="form-control" value="<?php isset($_POST['name']) ? validateFileName($_POST['name']) : ''?>"> 
 					</div>										
 				</div>										
 							
