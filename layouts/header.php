@@ -20,7 +20,7 @@
             <div id="header">
                 <div id="header-top">
                     <div class="container">
-                        <!-- <div class="row clearfix"> -->
+                        <div class="row clearfix">
                             <!-- <div class="col-md-6" id="header-text">
                                 
                             </div> -->
@@ -54,7 +54,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                        <!-- </div> -->
+                        </div>
                     </div>
                 </div>
                 <!--<div class="container">
