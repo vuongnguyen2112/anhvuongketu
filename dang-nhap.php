@@ -169,7 +169,7 @@
 			
 			<div>
 				<p>Email </p>
-				<input type="text" name="email" placeholder="Email">
+				<input type="text" autofocus name="email" placeholder="Email">
 				<?php if (isset($error['email'])): ?>
 					<p class="text-danger"><?php echo $error['email'] ?></p>
 				<?php endif ?>
