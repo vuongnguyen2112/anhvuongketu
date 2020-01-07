@@ -39,13 +39,15 @@
                                             </li>
                                             
                                         <?php else: ?>
-                                            <li>
-                                            <a href="dang-nhap.php"><i class="fa fa-unlock"></i> Đăng nhập</a>
-                                            </li>
-                                            <li>
-                                                <a href="dang-ky.php"><i class="fa fa-user"></i> Đăng ký </a>
-                                                
-                                            </li>
+                                            <div style = "margin-right: 10px;">
+                                                <li>
+                                                    <a href="dang-nhap.php"><i class="fa fa-unlock"></i> Đăng nhập</a>
+                                                </li>
+                                                <li>
+                                                    <a href="dang-ky.php"><i class="fa fa-user"></i> Đăng ký </a>                                                    
+                                                </li>
+                                            </div>
+                                            
                                         <?php endif ?>
                                         
 
