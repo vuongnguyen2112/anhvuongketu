@@ -13,7 +13,7 @@
         <!--slide-->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>public/frontend/css/style.css">
     </head>
-    <body style = "width: 100%;">
+    <body>
         <div id="wrapper">
             <!---->
             <!--HEADER-->
@@ -24,7 +24,7 @@
                             <!-- <div class="col-md-6" id="header-text">
                                 
                             </div> -->
-                            <div class="col-md-4">
+                            <div class="col-md-5" style = "margin-right: 15px;">
                                 <nav id="header-nav-top">
                                     <ul class="list-inline pull-right" id="headermenu">
                                         <?php if (isset($_SESSION['name_user'])): ?>
@@ -39,7 +39,7 @@
                                             </li>
                                             
                                         <?php else: ?>
-                                            <div style = "margin-right: 10px;">
+                                            <div>
                                                 <li>
                                                     <a href="dang-nhap.php"><i class="fa fa-unlock"></i> Đăng nhập</a>
                                                 </li>
