@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+#chinhsach{
+margin-bottom: 50px;
+margin-top: 50px;
+margin-left: 150px;
+margin-right: 150px;
+	
+}
+#chinhsach-tieude{
+	border-bottom: 5px solid #D9D9D9;
+	color: blue;
+
+
+}
+#fnt{
+	color: red;
+	margin-bottom: 30px;
+	
+}
+#left{
+	float: left;
+	
+	width: 50%;
+	height: 100%;
+
+}
+
+#right{
+	float: right;
+	
+
+width: 50%;
+	height: 100%;
+}
+#imga{
+	float: left;
+}
+#prev{
+	float: right;
+}
