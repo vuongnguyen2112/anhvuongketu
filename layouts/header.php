@@ -21,10 +21,10 @@
                 <div id="header-top">
                     <div class="container">
                         <div class="row clearfix">
-                            <div class="col-md-6" id="header-text">
+                            <!-- <div class="col-md-6" id="header-text">
                                 
-                            </div>
-                            <div class="col-md-6">
+                            </div> -->
+                            <div class="col-md-4">
                                 <nav id="header-nav-top">
                                     <ul class="list-inline pull-right" id="headermenu">
                                         <?php if (isset($_SESSION['name_user'])): ?>
