@@ -21,9 +21,9 @@
                 <div id="header-top">
                     <div class="container">
                         <div class="row clearfix">
-                            <!-- <div class="col-md-6" id="header-text">
+                            <div class="col-md-6" id="header-text">
                                 
-                            </div> -->
+                            </div>
                             <div class="col-md-6">
                                 <nav id="header-nav-top">
                                     <ul class="list-inline pull-right" id="headermenu">
