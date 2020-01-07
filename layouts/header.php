@@ -20,11 +20,11 @@
             <div id="header">
                 <div id="header-top">
                     <div class="container">
-                        <div class="row clearfix">
+                        <div class="row">
                             <!-- <div class="col-md-6" id="header-text">
                                 
                             </div> -->
-                            <div class="col-md-5" style = "margin-right: 15px;">
+                            <div class="col-md-6" style = "margin-right: 15px;">
                                 <nav id="header-nav-top">
                                     <ul class="list-inline pull-right" id="headermenu">
                                         <?php if (isset($_SESSION['name_user'])): ?>
