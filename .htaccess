@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} !^www.ganhvuongketu.ga [NC]
+RewriteRule ^(.*)$ http://anhvuongketu.ga/$1 [L,R=301]
