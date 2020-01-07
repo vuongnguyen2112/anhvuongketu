@@ -168,7 +168,7 @@
 		<form action="" method="POST" role="form">
 			
 			<div>
-				<p>Email của bạn</p>
+				<p>Email của tôi</p>
 				<input type="text" autofocus name="email" placeholder="Email">
 				<?php if (isset($error['email'])): ?>
 					<p class="text-danger"><?php echo $error['email'] ?></p>
