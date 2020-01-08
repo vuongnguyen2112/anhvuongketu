@@ -26,7 +26,7 @@
                             </div>
                             <div class="col-md-6">
                                 <nav id="header-nav-top">
-                                    <ul class="list-inline pull-right" id="headermenu">
+                                    <ul class="list-inline pull-right" id="headermenu" style="position: relative;">
                                         <?php if (isset($_SESSION['name_user'])): ?>
                                             <li style="color: red"><?php echo $_SESSION['name_user'] ?></li>
                                             <li>
@@ -39,15 +39,14 @@
                                             </li>
                                             
                                         <?php else: ?>
-                                            <div>
+                                            <div style="display: flex;">
                                                 <li>
                                                     <a href="dang-nhap.php"><i class="fa fa-unlock"></i> Đăng nhập</a>
                                                 </li>
                                                 <li>
                                                     <a href="dang-ky.php"><i class="fa fa-user"></i> Đăng ký </a>                                                    
                                                 </li>
-                                            </div>
-                                            
+                                            </div>                                           
                                         <?php endif ?>
                                         
 
