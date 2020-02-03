@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>DVH : Đồ án web</title>
+        <title>Shop laptop phụ kiện Sài gòn</title>
+        <meta name="description" content="Shop anh Vương cung cấp những loại laptop độc lạ, giá rẻ hàng đầu TPHCM với thương hiệu uy tín trong hơn 10 năm">
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>public/frontend/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>public/frontend/css/bootstrap.min.css">
